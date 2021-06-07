@@ -23,9 +23,16 @@ public class TestMaximum {
 		System.out.println(str1.compareTo(str3));
 		System.out.println(str2.compareTo(str3));
 	}
+	//Comparison of Strings
+	public static void toPrintMaxString(String a, String b, String c) {
+		System.out.println(a.compareTo(b));
+		System.out.println(a.compareTo(c));
+		System.out.println(b.compareTo(c));
+	}
 	
 	public static void main(String[] args) {
 		toPrintMaxInteger(34, 47, 34);
 		toPrintMaxFloat(3*10^6, 7*10^6, 5*10^3);
+		toPrintMaxString("Apple","Peach","Banana");
 	}
 }
